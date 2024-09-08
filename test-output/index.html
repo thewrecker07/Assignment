@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\mavrik\Java\Eclipse\ui_Testing\firefox.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 7 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionC.CalleyMobileC" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionC.DemoPage" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionB.DemoPage" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionB.LifetimeOfferPageB" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionC.LifetimeOfferPageC" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionC.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionC.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsA.CalleyDeskA" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionA.CalleyMobileA" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionB.CalleyMobileB" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsB.CalleyDeskB" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsC.CalleyDeskC" class="method navigator-link" hash-for-method="calleyPage">calleyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsA.DemoPageA" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsC.DemoPage" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsB.DemoPage" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionA.DemoPage" class="method navigator-link" hash-for-method="demoPage">demoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsA.CalleyLifetimeOffer" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsC.CalleyLifetimeOfferB" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsB.CalleyLifetimeOfferB" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionA.LifetimeOfferMobileA" class="method navigator-link" hash-for-method="lifeTimeOfferPage">lifeTimeOfferPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsB.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsA.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionB.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsC.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionA.ProFeatures" class="method navigator-link" hash-for-method="proFeatures">proFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsA.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionA.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsB.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.desktop.resolutionsC.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="firefox.mobile.resolutionB.TeamFeatures" class="method navigator-link" hash-for-method="teamFeatures">teamFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionC.CalleyMobileC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: &apos;LAPTOP-HRRLCGBU&apos;, ip: &apos;192.168.0.109&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\asus\.cache\seleni..., prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at firefox.mobile.resolutionC.CalleyMobileC.calleyPage(CalleyMobileC.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionC.LifetimeOfferPageC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: &apos;LAPTOP-HRRLCGBU&apos;, ip: &apos;192.168.0.109&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\asus\.cache\seleni..., prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at firefox.mobile.resolutionC.LifetimeOfferPageC.lifeTimeOfferPage(LifetimeOfferPageC.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionC.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5aacba27-5356-41f5-b2bd-3b81242ba7a4, get {url=https://www.getcalley.com/calley-teams-features/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:debuggerAddress: 127.0.0.1:29760, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 44948, moz:profile: C:\Users\asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29760/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5aacba27-5356-41f5-b2bd-3b81242ba7a4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at firefox.mobile.resolutionC.TeamFeatures.teamFeatures(TeamFeatures.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionC.DemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: &apos;LAPTOP-HRRLCGBU&apos;, ip: &apos;192.168.0.109&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\asus\.cache\seleni..., prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at firefox.mobile.resolutionC.DemoPage.demoPage(DemoPage.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionC.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeCustomCommand(Browser.java:899)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotGeckoDriver(Browser.java:735)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshot(Browser.java:150)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:154)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:123)
+	at firefox.mobile.resolutionC.ProFeatures.proFeatures(ProFeatures.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeCustomCommand(Browser.java:896)
+	... 33 more
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6ef8cabb-9247-4363-94a2-ae00f20895e9, mozFullPageScreenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:debuggerAddress: 127.0.0.1:27513, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10008, moz:profile: C:\Users\asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27513/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6ef8cabb-9247-4363-94a2-ae00f20895e9
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	... 37 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+	... 46 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionB.LifetimeOfferPageB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: &apos;LAPTOP-HRRLCGBU&apos;, ip: &apos;192.168.0.109&apos;
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\asus\.cache\seleni..., prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at firefox.mobile.resolutionB.LifetimeOfferPageB.lifeTimeOfferPage(LifetimeOfferPageB.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firefox.mobile.resolutionB.DemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9da21a26-2287-49ea-93a5-011a5f758873, executeScript {script=return window.devicePixelRatio;, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:debuggerAddress: 127.0.0.1:35172, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 60564, moz:profile: C:\Users\asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35172/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9da21a26-2287-49ea-93a5-011a5f758873
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:872)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.&lt;init&gt;(Browser.java:81)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:123)
+	at firefox.mobile.resolutionB.DemoPage.demoPage(DemoPage.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionA.LifetimeOfferMobileA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionA.CalleyMobileA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsC.CalleyDeskC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsA.DemoPageA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsB.CalleyLifetimeOfferB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsA.CalleyLifetimeOffer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsB.CalleyDeskB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsB.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsB.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionB.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsA.CalleyDeskA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsC.CalleyLifetimeOfferB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lifeTimeOfferPage">
+                  </a> <!-- lifeTimeOfferPage -->
+                  <span class="method-name">lifeTimeOfferPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionA.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionB.CalleyMobileB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calleyPage">
+                  </a> <!-- calleyPage -->
+                  <span class="method-name">calleyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsA.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsA.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionA.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionB.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.mobile.resolutionA.DemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsC.DemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsC.ProFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="proFeatures">
+                  </a> <!-- proFeatures -->
+                  <span class="method-name">proFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsB.DemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoPage">
+                  </a> <!-- demoPage -->
+                  <span class="method-name">demoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firefox.desktop.resolutionsC.TeamFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teamFeatures">
+                  </a> <!-- teamFeatures -->
+                  <span class="method-name">teamFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\mavrik\Java\Eclipse\ui_Testing\firefox.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsA.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsA.DemoPageA&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsA.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsA.CalleyDeskA&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsA.CalleyLifetimeOffer&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsB.DemoPage&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsB.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsB.CalleyDeskB&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsB.CalleyLifetimeOfferB&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsB.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsC.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsC.DemoPage&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsC.CalleyLifetimeOfferB&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsC.CalleyDeskC&quot;/&gt;
+      &lt;class name=&quot;firefox.desktop.resolutionsC.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionA.DemoPage&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionA.LifetimeOfferMobileA&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionA.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionA.CalleyMobileA&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionA.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionB.CalleyMobileB&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionB.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionB.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionB.DemoPage&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionB.LifetimeOfferPageB&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionC.TeamFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionC.ProFeatures&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionC.DemoPage&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionC.LifetimeOfferPageC&quot;/&gt;
+      &lt;class name=&quot;firefox.mobile.resolutionC.CalleyMobileC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (30 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'proFeatures')
+data.setCell(0, 2, 'firefox.mobile.resolutionC.ProFeatures')
+data.setCell(0, 3, 215227);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'calleyPage')
+data.setCell(1, 2, 'firefox.mobile.resolutionB.CalleyMobileB')
+data.setCell(1, 3, 31205);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'proFeatures')
+data.setCell(2, 2, 'firefox.mobile.resolutionB.ProFeatures')
+data.setCell(2, 3, 30627);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'calleyPage')
+data.setCell(3, 2, 'firefox.desktop.resolutionsC.CalleyDeskC')
+data.setCell(3, 3, 30616);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'calleyPage')
+data.setCell(4, 2, 'firefox.mobile.resolutionA.CalleyMobileA')
+data.setCell(4, 3, 30144);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'teamFeatures')
+data.setCell(5, 2, 'firefox.mobile.resolutionB.TeamFeatures')
+data.setCell(5, 3, 29103);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'teamFeatures')
+data.setCell(6, 2, 'firefox.mobile.resolutionA.TeamFeatures')
+data.setCell(6, 3, 28750);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'demoPage')
+data.setCell(7, 2, 'firefox.mobile.resolutionC.DemoPage')
+data.setCell(7, 3, 27943);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'lifeTimeOfferPage')
+data.setCell(8, 2, 'firefox.desktop.resolutionsC.CalleyLifetimeOfferB')
+data.setCell(8, 3, 27514);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'calleyPage')
+data.setCell(9, 2, 'firefox.desktop.resolutionsB.CalleyDeskB')
+data.setCell(9, 3, 26844);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'proFeatures')
+data.setCell(10, 2, 'firefox.desktop.resolutionsC.ProFeatures')
+data.setCell(10, 3, 26755);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'demoPage')
+data.setCell(11, 2, 'firefox.mobile.resolutionB.DemoPage')
+data.setCell(11, 3, 26745);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'calleyPage')
+data.setCell(12, 2, 'firefox.desktop.resolutionsA.CalleyDeskA')
+data.setCell(12, 3, 26513);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'lifeTimeOfferPage')
+data.setCell(13, 2, 'firefox.mobile.resolutionC.LifetimeOfferPageC')
+data.setCell(13, 3, 25262);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'teamFeatures')
+data.setCell(14, 2, 'firefox.desktop.resolutionsC.TeamFeatures')
+data.setCell(14, 3, 25253);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'teamFeatures')
+data.setCell(15, 2, 'firefox.desktop.resolutionsB.TeamFeatures')
+data.setCell(15, 3, 24968);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'proFeatures')
+data.setCell(16, 2, 'firefox.mobile.resolutionA.ProFeatures')
+data.setCell(16, 3, 24150);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'teamFeatures')
+data.setCell(17, 2, 'firefox.desktop.resolutionsA.TeamFeatures')
+data.setCell(17, 3, 24116);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'demoPage')
+data.setCell(18, 2, 'firefox.desktop.resolutionsC.DemoPage')
+data.setCell(18, 3, 24114);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'teamFeatures')
+data.setCell(19, 2, 'firefox.mobile.resolutionC.TeamFeatures')
+data.setCell(19, 3, 22914);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'demoPage')
+data.setCell(20, 2, 'firefox.mobile.resolutionA.DemoPage')
+data.setCell(20, 3, 22347);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'proFeatures')
+data.setCell(21, 2, 'firefox.desktop.resolutionsB.ProFeatures')
+data.setCell(21, 3, 21927);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'demoPage')
+data.setCell(22, 2, 'firefox.desktop.resolutionsA.DemoPageA')
+data.setCell(22, 3, 21766);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'proFeatures')
+data.setCell(23, 2, 'firefox.desktop.resolutionsA.ProFeatures')
+data.setCell(23, 3, 21402);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'lifeTimeOfferPage')
+data.setCell(24, 2, 'firefox.mobile.resolutionB.LifetimeOfferPageB')
+data.setCell(24, 3, 21322);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'demoPage')
+data.setCell(25, 2, 'firefox.desktop.resolutionsB.DemoPage')
+data.setCell(25, 3, 20882);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'lifeTimeOfferPage')
+data.setCell(26, 2, 'firefox.mobile.resolutionA.LifetimeOfferMobileA')
+data.setCell(26, 3, 20342);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'lifeTimeOfferPage')
+data.setCell(27, 2, 'firefox.desktop.resolutionsA.CalleyLifetimeOffer')
+data.setCell(27, 3, 18923);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'calleyPage')
+data.setCell(28, 2, 'firefox.mobile.resolutionC.CalleyMobileC')
+data.setCell(28, 3, 18908);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'lifeTimeOfferPage')
+data.setCell(29, 2, 'firefox.desktop.resolutionsB.CalleyLifetimeOfferB')
+data.setCell(29, 3, 18897);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.DemoPageA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoPage</span>
+                <span class="method-start">24121 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">45890 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.CalleyDeskA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">67295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.CalleyLifetimeOffer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">93809 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.DemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoPage</span>
+                <span class="method-start">112734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">133618 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.CalleyDeskB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">155547 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.CalleyLifetimeOfferB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">182393 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">201292 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">226263 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.DemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoPage</span>
+                <span class="method-start">251517 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.CalleyLifetimeOfferB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">275680 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.CalleyDeskC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">303196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">333814 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.DemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demoPage</span>
+                <span class="method-start">360576 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.LifetimeOfferMobileA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">382926 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">403270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.CalleyMobileA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">427435 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">457590 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.CalleyMobileB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">486370 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">517586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">548222 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.DemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">demoPage</span>
+                <span class="method-start">577332 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.LifetimeOfferPageB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">604129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teamFeatures</span>
+                <span class="method-start">625463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">proFeatures</span>
+                <span class="method-start">648382 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.DemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">demoPage</span>
+                <span class="method-start">863631 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.LifetimeOfferPageC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">lifeTimeOfferPage</span>
+                <span class="method-start">891671 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.CalleyMobileC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">calleyPage</span>
+                <span class="method-start">916937 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.CalleyDeskA</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">935869 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.CalleyDeskB</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">937692 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.CalleyDeskC</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">938933 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.CalleyLifetimeOffer</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">939909 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.CalleyLifetimeOfferB</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">940866 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.CalleyLifetimeOfferB</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">941926 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.CalleyMobileA</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">947012 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.CalleyMobileB</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">948624 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.CalleyMobileC</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949608 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.DemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949612 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.DemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949616 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.DemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949616 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.DemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949616 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.DemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949616 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.DemoPageA</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949620 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.LifetimeOfferPageB</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949620 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.LifetimeOfferMobileA</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949620 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949624 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.LifetimeOfferPageC</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949624 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949624 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949628 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949628 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949628 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.ProFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949632 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsA.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949632 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsB.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949632 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionB.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949636 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionA.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949636 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.desktop.resolutionsC.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949636 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firefox.mobile.resolutionC.TeamFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">949640 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="edge.desktop.resolutionsA.ProFeatures"/>
+      <class name="edge.desktop.resolutionsA.CalleyDeskA"/>
+      <class name="edge.desktop.resolutionsA.DemoPageA"/>
+      <class name="edge.desktop.resolutionsA.CalleyLifetimeOffer"/>
+      <class name="edge.desktop.resolutionsA.TeamFeatures"/>
+      
+            <class name="edge.desktop.resolutionsB.ProFeatures"/>
+      <class name="edge.desktop.resolutionsB.CalleyLifetimeOffer"/>
+      <class name="edge.desktop.resolutionsB.DemoPageA"/>
+      <class name="edge.desktop.resolutionsB.TeamFeatures"/>
+      <class name="edge.desktop.resolutionsB.CalleyDeskB"/>
+      
+            <class name="edge.desktop.resolutionsC.DemoPage"/>
+      <class name="edge.desktop.resolutionsC.CalleyDeskC"/>
+      <class name="edge.desktop.resolutionsC.ProFeatures"/>
+      <class name="edge.desktop.resolutionsC.TeamFeatures"/>
+      <class name="edge.desktop.resolutionsC.LifeTimeOfferPageC"/>
+      
+            <class name="edge.mobile.resolutionA.TeamFeatures"/>
+      <class name="edge.mobile.resolutionA.CalleyMobileA"/>
+      <class name="edge.mobile.resolutionA.LifetimeOfferMobileA"/>
+      <class name="edge.mobile.resolutionA.DemoPage"/>
+      <class name="edge.mobile.resolutionA.ProFeatures"/>
+      
+            <class name="edge.mobile.resolutionB.TeamFeatures"/>
+      <class name="edge.mobile.resolutionB.DemoPage"/>
+      <class name="edge.mobile.resolutionB.LifetimeOfferPageB"/>
+      <class name="edge.mobile.resolutionB.ProFeatures"/>
+      <class name="edge.mobile.resolutionB.CalleyMobileB"/>
+      
+            <class name="edge.mobile.resolutionC.CalleyMobileC"/>
+      <class name="edge.mobile.resolutionC.TeamFeatures"/>
+      <class name="edge.mobile.resolutionC.LifetimeOfferPageC"/>
+      <class name="edge.mobile.resolutionC.ProFeatures"/>
+      <class name="edge.mobile.resolutionC.DemoPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

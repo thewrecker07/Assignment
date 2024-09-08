@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="firefox.desktop.resolutionsA.TeamFeatures"/>
+      <class name="firefox.desktop.resolutionsA.DemoPageA"/>
+      <class name="firefox.desktop.resolutionsA.ProFeatures"/>
+      <class name="firefox.desktop.resolutionsA.CalleyDeskA"/>
+      <class name="firefox.desktop.resolutionsA.CalleyLifetimeOffer"/>
+      
+      <class name="firefox.desktop.resolutionsB.DemoPage"/>
+      <class name="firefox.desktop.resolutionsB.ProFeatures"/>
+      <class name="firefox.desktop.resolutionsB.CalleyDeskB"/>
+      <class name="firefox.desktop.resolutionsB.CalleyLifetimeOfferB"/>
+      <class name="firefox.desktop.resolutionsB.TeamFeatures"/>
+      
+      <class name="firefox.desktop.resolutionsC.TeamFeatures"/>
+      <class name="firefox.desktop.resolutionsC.DemoPage"/>
+      <class name="firefox.desktop.resolutionsC.CalleyLifetimeOfferB"/>
+      <class name="firefox.desktop.resolutionsC.CalleyDeskC"/>
+      <class name="firefox.desktop.resolutionsC.ProFeatures"/>
+      
+      <class name="firefox.mobile.resolutionA.DemoPage"/>
+      <class name="firefox.mobile.resolutionA.LifetimeOfferMobileA"/>
+      <class name="firefox.mobile.resolutionA.ProFeatures"/>
+      <class name="firefox.mobile.resolutionA.CalleyMobileA"/>
+      <class name="firefox.mobile.resolutionA.TeamFeatures"/>
+      
+      <class name="firefox.mobile.resolutionB.CalleyMobileB"/>
+      <class name="firefox.mobile.resolutionB.ProFeatures"/>
+      <class name="firefox.mobile.resolutionB.TeamFeatures"/>
+      <class name="firefox.mobile.resolutionB.DemoPage"/>
+      <class name="firefox.mobile.resolutionB.LifetimeOfferPageB"/>
+      
+      <class name="firefox.mobile.resolutionC.TeamFeatures"/>
+      <class name="firefox.mobile.resolutionC.ProFeatures"/>
+      <class name="firefox.mobile.resolutionC.DemoPage"/>
+      <class name="firefox.mobile.resolutionC.LifetimeOfferPageC"/>
+      <class name="firefox.mobile.resolutionC.CalleyMobileC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

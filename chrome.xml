@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<classes>
+		      <class name="chrome.desktop.resolutionsA.ProFeatures"/>
+      <class name="chrome.desktop.resolutionsA.TeamFeatures"/>
+      <class name="chrome.desktop.resolutionsA.CalleyLifetimeOffer"/>
+      <class name="chrome.desktop.resolutionsA.CalleyDeskA"/>
+      <class name="chrome.desktop.resolutionsA.DemoPageA"/>
+      
+            <class name="chrome.desktop.resolutionsB.ProFeatures"/>
+      <class name="chrome.desktop.resolutionsB.TeamFeatures"/>
+      <class name="chrome.desktop.resolutionsB.CalleyDeskB"/>
+      <class name="chrome.desktop.resolutionsB.DemoPage"/>
+      <class name="chrome.desktop.resolutionsB.CalleyLifetimeOfferB"/>
+      
+            <class name="chrome.desktop.resolutionsC.ProFeatures"/>
+      <class name="chrome.desktop.resolutionsC.TeamFeatures"/>
+      <class name="chrome.desktop.resolutionsC.CalleyDeskC"/>
+      <class name="chrome.desktop.resolutionsC.DemoPage"/>
+      <class name="chrome.desktop.resolutionsC.LifeTimeOfferPageC"/>
+      
+            <class name="chrome.mobile.resolutionA.LifetimeOfferMobileA"/>
+      <class name="chrome.mobile.resolutionA.ProFeatures"/>
+      <class name="chrome.mobile.resolutionA.CalleyMobileA"/>
+      <class name="chrome.mobile.resolutionA.TeamFeatures"/>
+      <class name="chrome.mobile.resolutionA.DemoPage"/>
+      
+            <class name="chrome.mobile.resolutionB.CalleyMobileB"/>
+      <class name="chrome.mobile.resolutionB.DemoPage"/>
+      <class name="chrome.mobile.resolutionB.LifetimeOfferPageB"/>
+      <class name="chrome.mobile.resolutionB.ProFeatures"/>
+      <class name="chrome.mobile.resolutionB.TeamFeatures"/>
+      
+            <class name="chrome.mobile.resolutionC.CalleyMobileC"/>
+      <class name="chrome.mobile.resolutionC.DemoPage"/>
+      <class name="chrome.mobile.resolutionC.ProFeatures"/>
+      <class name="chrome.mobile.resolutionC.TeamFeatures"/>
+      <class name="chrome.mobile.resolutionC.LifetimeOfferPageC"/>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
